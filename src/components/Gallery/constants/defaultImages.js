@@ -17,8 +17,8 @@ export const DEFAULT_IMAGES = [
       id: '1',
       source: full01,
       thumbnail: thumb01,
-      caption: 'Photo 1',
-      description: 'Lorem ipsum dolor sit amet nisl sed nullam feugiat.',
+      caption: 'Project 1',
+      description: 'Project 1',
     },
     {
       id: '2',
