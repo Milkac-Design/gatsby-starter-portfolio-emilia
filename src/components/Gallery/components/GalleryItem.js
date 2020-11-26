@@ -3,16 +3,17 @@ import PropTypes from 'prop-types'
 
 const GalleryItem = ({id, source, thumbnail, caption, description, position, toggleLightbox}) => {
 
-    const onClick = useCallback((e) => {
-        e.preventDefault()
-        toggleLightbox(position)
-    }, [position, toggleLightbox]);
+    // const onClick = useCallback((e) => {
+    //     e.preventDefault()
+    //     toggleLightbox(position)
+    // }, [position, toggleLightbox]);
 
     return (<article key={id} className="6u 12u$(xsmall) work-item">
         <a
         className="image fit thumb"
         href={source}
-        onClick={onClick}
+        target="_blank"
+        // onClick={onClick}
         >
         <img src={thumbnail} />
         </a>
