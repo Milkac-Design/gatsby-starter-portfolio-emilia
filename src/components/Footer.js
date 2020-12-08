@@ -5,8 +5,11 @@ const Footer = () => (
     <div className="inner">
       <ul className="icons">
         <li>
-          <a href="https://twitter.com/mario_milkovic" className="icon fa-twitter">
-            <span className="label">Twitter</span>
+          <a
+            href="https://www.linkedin.com/in/mario-milkovic-5a904aa1/"
+            className="icon fa-linkedin"
+          >
+            <span className="label">LinkedIn</span>
           </a>
         </li>
         <li>
@@ -17,9 +20,7 @@ const Footer = () => (
       </ul>
       <ul className="copyright">
         <li>&copy; Gatsby Starter Strata</li>
-        <li>
-          Design: Milkac-Design
-        </li>
+        <li>Design: Milkac-Design</li>
       </ul>
     </div>
   </div>

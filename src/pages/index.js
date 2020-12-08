@@ -23,18 +23,21 @@ const HomeIndex = () => {
           <p>
             My name is Mario, I am Croatian, and I move to Vienna in 2020.
             Before that, I lived in Dublin for seven years and worked at
-            Accenture as Senior Privacy Agent for Facebook. I started to get
-            more interested in coding and signed up for the Web Developer
-            Learning path at Codecademy. I thought it was exciting and I wanted
-            to learn more. As I knew I was moving to Vienna in the summer, I
-            signed up for the Developer Bootcamp at UpLeveled and finnished it.
-            UpLeveled specialized in Javascript, React, Node.js, and Next.js. I
-            built a few projects that you can see below
+            Accenture as Senior Privacy Agent for Facebook.
+            <br />
+            <br />I started to get more interested in coding and signed up for
+            the Web Developer Learning path at Codecademy. I thought it was
+            exciting and I wanted to learn more. As I knew I was moving to
+            Vienna in the summer, I signed up for the Developer Bootcamp at
+            UpLeveled and finnished it.
+            <br />
+            <br /> UpLeveled specialized in Javascript, React, Node.js, and
+            Next.js and there I built a few projects that you can see below..
           </p>
           <ul className="actions">
             <li>
               <a href="./cv" className="button">
-                Learn More
+                My CV
               </a>
             </li>
           </ul>

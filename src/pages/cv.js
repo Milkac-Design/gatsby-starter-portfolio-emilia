@@ -68,6 +68,24 @@ const Cv = () => {
             ensuring that all customer banking requests are processed accurately
             and in a timely manner
           </p>
+          <h2>Personal Profile</h2>
+          <hr />
+          <h3>Languages</h3>
+          <p>Croatian - Native</p>
+          <p>English - Fluent</p>
+          <p>German - Basic</p>
+          <h3>Strengths</h3>
+          <p>Attention to detail</p>
+          <p>Quick problem silving</p>
+          <p>Stress resistant</p>
+          <h3>Skills</h3>
+          <div className='progressbar'>
+            <p>CSS: <progress max="100" value="80"></progress></p>
+            <p>HTML: <progress max="100" value="80"></progress></p>
+            <p>JavaScript: <progress max="100" value="60"></progress></p>
+            <p>Next.js: <progress max="100" value="70"></progress></p>
+            <p>PostgreSQL: <progress max="100" value="60"></progress></p>
+          </div>
         </div>
       </div>
     </Layout>
