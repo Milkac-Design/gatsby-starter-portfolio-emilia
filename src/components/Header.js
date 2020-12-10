@@ -10,9 +10,7 @@ const Header = () => (
         <img src={avatar} alt="" />
       </a>
       <h1>
-        <strong>Hi I am Mario</strong>,I am a Junior web developer, completed
-        UpLeveled bootcamp specialized in JavaScript, React, Node.js, and
-        Next.js based in Vienna
+        <strong>Mario Milkovic</strong><br/> Junior web developer <br/> Specialized in Frontend, JavaScript, React, Next.js, CSS, based in Vienna
       </h1>
     </div>
     <Footer />

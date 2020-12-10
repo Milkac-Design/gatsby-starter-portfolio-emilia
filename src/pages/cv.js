@@ -1,9 +1,15 @@
 import React from 'react'
 import Layout from '../components/layout'
+import Helmet from 'react-helmet'
 
 const Cv = () => {
   return (
     <Layout>
+      <Helmet>
+        <title>Mario Milkovic</title>
+
+      </Helmet>
+
       <div id="main">
         <h1>Mario Milkovic</h1>
         <div>
@@ -48,6 +54,10 @@ const Cv = () => {
             Basic of programming and writing own programs, integrate input and
             output, calculations, loops in Java
           </p>
+          <h3>Faculty of Tourism and Hospitality Management, Opatija</h3>
+          <p>Bachelor Degree - Hotel Management</p>
+          <p>2006 - 2010</p>
+          <p>Major: Event and Leisure Management</p>
           <h2>Work Experience</h2>
           <hr />
           <h3>Accenture @ Facebook – Dublin, IE - Senior Privacy Agent</h3>
